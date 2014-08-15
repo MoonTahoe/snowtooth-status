@@ -1,0 +1,225 @@
+[
+    {
+        "name": "Blue Bird",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Astra Express"
+    },
+    {
+        "name": "Blackhawk",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Astra Express"
+    },
+    {
+        "name": "Duck's Revenge",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Astra Express"
+    },
+    {
+        "name": "Ice Streak",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Astra Express"
+    },
+    {
+        "name": "Piggly Wiggly Bowl",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Astra Express"
+    },
+    {
+        "name": "Parachute",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Astra Express"
+    },
+    {
+        "name": "Goosebumps",
+        "difficulty": "advanced",
+        "status": "open",
+        "lift": "Jazz Cat"
+    },
+    {
+        "name": "River Run",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Jazz Cat"
+    },
+    {
+        "name": "Dance Fight",
+        "difficulty": "beginner",
+        "status": "open",
+        "lift": "Jolly Roger"
+    },
+    {
+        "name": "Sneaky Pete",
+        "difficulty": "beginner",
+        "status": "open",
+        "lift": "Jolly Roger"
+    },
+    {
+        "name": "Bear Cave",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Jolly Roger"
+    },
+    {
+        "name": "Humpty Dumpty",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Jolly Roger"
+    },
+    {
+        "name": "Meatball",
+        "difficulty": "beginner",
+        "status": "open",
+        "lift": "Jolly Roger"
+    },
+    {
+        "name": "Crooked Chute",
+        "difficulty": "expert",
+        "status": "closed",
+        "lift": "Prickly Peak"
+    },
+    {
+        "name": "Mark's Chute",
+        "difficulty": "expert",
+        "status": "open",
+        "lift": "Prickly Peak"
+    },
+    {
+        "name": "The Terrible Chute",
+        "difficulty": "expert",
+        "status": "closed",
+        "lift": "Prickly Peak"
+    },
+    {
+        "name": "Blue Streak",
+        "difficulty": "advanced",
+        "status": "open",
+        "lift": "Snowtooth Express"
+    },
+    {
+        "name": "Hoya Saxa",
+        "difficulty": "advanced",
+        "status": "open",
+        "lift": "Snowtooth Express"
+    },
+    {
+        "name": "Michigan Ave",
+        "difficulty": "advanced",
+        "status": "open",
+        "lift": "Snowtooth Express"
+    },
+    {
+        "name": "Parker Downhill",
+        "difficulty": "advanced",
+        "status": "open",
+        "lift": "Snowtooth Express"
+    },
+    {
+        "name": "Summit Bowl",
+        "difficulty": "advanced",
+        "status": "open",
+        "lift": "Summit"
+    },
+    {
+        "name": "Hanger Bowl",
+        "difficulty": "expert",
+        "status": "closed",
+        "lift": "Summit"
+    },
+    {
+        "name": "Big Gully",
+        "difficulty": "advanced",
+        "status": "open",
+        "lift": "Summit"
+    },
+    {
+        "name": "Buford",
+        "difficulty": "beginner",
+        "status": "open",
+        "lift": "Wally's"
+    },
+    {
+        "name": "Slippy Stream",
+        "difficulty": "beginner",
+        "status": "closed",
+        "lift": "Wally's"
+    },
+    {
+        "name": "Thunder Gully",
+        "difficulty": "advanced",
+        "status": "closed",
+        "lift": "Wally's"
+    },
+    {
+        "name": "Peacock",
+        "difficulty": "beginner",
+        "status": "open",
+        "lift": "Wally's"
+    },
+    {
+        "name": "Fun Run",
+        "difficulty": "beginner",
+        "status": "open",
+        "lift": "Wally's"
+    },
+
+    {
+        "name": "Centennial",
+        "difficulty": "advanced",
+        "status": "closed",
+        "lift": "Western States"
+    },
+    {
+        "name": "White Lightning",
+        "difficulty": "advanced",
+        "status": "closed",
+        "lift": "Western States"
+    },
+    {
+        "name": "Oatmeal's return",
+        "difficulty": "intermediate",
+        "status": "closed",
+        "lift": "Western States"
+    },
+    {
+        "name": "Head Chutes gate A",
+        "difficulty": "expert",
+        "status": "closed",
+        "lift": "Western States"
+    },
+    {
+        "name": "Head Chutes gate B",
+        "difficulty": "expert",
+        "status": "closed",
+        "lift": "Western States"
+    },
+    {
+        "name": "Head Chutes gate C",
+        "difficulty": "expert",
+        "status": "closed",
+        "lift": "Western States"
+    },
+    {
+        "name": "Bird Glade",
+        "difficulty": "expert",
+        "status": "closed",
+        "lift": "Whirlybird"
+    },
+    {
+        "name": "Big Bird",
+        "difficulty": "intermediate",
+        "status": "open",
+        "lift": "Whirlybird"
+    },
+    {
+        "name": "Roller Park",
+        "difficulty": "advanced",
+        "status": "open",
+        "lift": "Whirlybird"
+    }
+]

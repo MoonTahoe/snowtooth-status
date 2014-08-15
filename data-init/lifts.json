@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Astra Express",
+        "type": "chair",
+        "capacity": 3,
+        "status": "open"
+    },
+    {
+        "name": "Jazz Cat",
+        "type": "chair",
+        "capacity": 6,
+        "status": "open"
+    },
+    {
+        "name": "Jolly Roger",
+        "type": "chair",
+        "capacity": 2,
+        "status": "open"
+    },
+    {
+        "name": "Neptune Rope",
+        "type": "tow",
+        "capacity": 1,
+        "status": "open"
+    },
+    {
+        "name": "Panorama",
+        "type": "gondola",
+        "capacity": 8,
+        "status": "hold"
+    },
+    {
+        "name": "Prickly Peak",
+        "type": "chair",
+        "capacity": 3,
+        "status": "open"
+    },
+    {
+        "name": "Snowtooth Express",
+        "type": "chair",
+        "capacity": 6,
+        "status": "open"
+    },
+    {
+        "name": "Summit",
+        "type": "chair",
+        "capacity": 6,
+        "status": "open"
+    },
+    {
+        "name": "Wally's",
+        "type": "chair",
+        "capacity": 2,
+        "status": "hold"
+    },
+    {
+        "name": "Western States",
+        "type": "chair",
+        "capacity": 6,
+        "status": "closed"
+    },
+    {
+        "name": "Whirlybird",
+        "type": "chair",
+        "capacity": 2,
+        "status": "hold"
+    }
+]
