@@ -2,15 +2,14 @@ Complete the Assignment
 =======================
 You know that you can branch... but now how about completing this assignment.
 
-1. Build Ski Lifts Data Model
-    * fetch
-        * by name
-        * by id
-        * by status
-    * updateStatus
+1. Incorporate Grunt
+    - Test
+    - JSHint
+    - yuidoc
     
+2. Comment and Refactor Ski Lift Data Model and Tests
     
-2. Build Ski Lifts Routes
+3. Build Ski Lifts Routes
 
     GET - "Selecting Chairlifts"
     
@@ -22,9 +21,14 @@ You know that you can branch... but now how about completing this assignment.
     
     PUT - "Update Status"
     
-    * /lift/:name
+    * 
     
-3. Client
+4. Setup Travis ci to Heroku
+    * make public
+    * setup travis
+    * setup heroku
+    
+5. Client
 
     * YUI - Models
     * YUI - Widgets and Views
@@ -33,5 +37,4 @@ You know that you can branch... but now how about completing this assignment.
         * /lifts/:type
         * /lifts/status/:status
         * /lifts/capacity/:capacity
-        * /lift/:name
-        
+        * /lift/:name       
