@@ -21,6 +21,37 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+/**
+ * Adds our own JSON middleware for CORS
+ *   Only ads CORS to JSON Requests
+ *   Appends boolean ajax to the request object
+ */
+app.use(function(req, res, next) {
+
+    if (req.headers.accept.indexOf('application/json') != -1 || req.headers.accept.indexOf('text/javascript') != -1) {
+
+        req.ajax = true;
+
+        res.header('Content-Type', 'application/json')
+            .header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type')
+            .header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
+            .header('Access-Control-Allow-Origin', '*');
+
+        // intercept OPTIONS method
+        if ('OPTIONS' == req.method) {
+            res.send(200);
+        }
+        else {
+            next();
+        }
+
+    } else {
+        next();
+    }
+
+});
+
+
 app.use('/', routes);
 app.use('/users', users);
 

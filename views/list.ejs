@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+</head>
+<body>
+
+    <%
+        var i, j;
+    %>
+
+    <h1><%= title %></h1>
+    <p><%= description %></p>
+    <p>Route: <strong><%= url %></strong></p>
+    <%- include nav %>
+
+    <table>
+    <thead>
+        <tr>
+            <% for (i=0; i<fields.length; i++) { %>
+                <th><%= fields[i] %></th>
+            <% } %>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <% for (i=0; i<items.length; i++) { %>
+            <tr>
+               <% for (j=0; j<fields.length; j++) { %>
+                    <td><a href="<%= printRoute(fields[j], items[i]) %>"><%= items[i][fields[j]] %></a></td>
+               <% } %>
+            </tr>
+        <% } %>
+
+    </tbody>
+    </table>
+
+    <a href="javascript: history.back()">Back</a>
+</body>
+</html>

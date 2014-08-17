@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+</head>
+<body>
+
+<h1><%= title %></h1>
+<p>Route: <strong><%= url %></strong></p>
+<%- include nav %>
+
+
+<% for (var key in lift) { %>
+
+    <p><%= key %>: <strong><%= lift[key] %></strong></p>
+
+<% } %>
+
+<a href="javascript: history.back()">Back</a>
+
+</body>
+</html>
