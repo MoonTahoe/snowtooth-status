@@ -1,4 +1,15 @@
-YUI().use("Chairlift", function(Y) {
+YUI({
+    modules: {
+        StopLight: {
+            fullpath: 'http://localhost:3000/js/widget-stoplight.js',
+            requires: ['base-build', 'widget']
+        },
+        Chairlift: {
+            fullpath: 'http://localhost:3000/js/module-chairlift.js',
+            requires: ['model','model-sync-rest','view','model-list', 'StopLight']
+        }
+    }
+}).use("Chairlift", "router", function(Y) {
 
     var statusView,
         allLifts = new Y.AllChairs();

@@ -110,7 +110,7 @@ router.get('/lifts/capacity/:capacity', function (req, res) {
     });
 });
 
-router.post('/lift/:name', function(req, res) {
+router.put('/lift/:name', function(req, res) {
 
     if (req.ajax) {
         if (req.body.status == 'open') {
