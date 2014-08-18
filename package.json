@@ -4,19 +4,20 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha -R list --recursive"
+    "test": "mocha -R list --recursive; cucumber-js --format pretty"
   },
   "dependencies": {
-    "express": "~4.2.0",
-    "static-favicon": "~1.0.0",
-    "morgan": "~1.0.0",
-    "cookie-parser": "~1.0.1",
     "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
-    "ejs": "~0.8.5"
+    "ejs": "~0.8.5",
+    "express": "~4.2.0",
+    "morgan": "~1.0.0",
+    "static-favicon": "~1.0.0"
   },
   "devDependencies": {
     "chai": "^1.9.1",
+    "cucumber": "^0.4.2",
     "mocha": "^1.21.4",
     "sinon": "^1.10.3"
   }

@@ -1,9 +1,5 @@
 var fs = require('fs');
 
-//
-//  TODO: Comment Code
-//
-
 module.exports = function (data) {
 
     if (typeof data == "string") {

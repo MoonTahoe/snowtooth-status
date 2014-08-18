@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('../data-init/lifts.json', 'UTF-8'));
-var model = require('../models/lifts')(data);
+var liftModel = require('../models/lifts');
+var data = JSON.parse(fs.readFileSync('data-init/lifts.json', 'UTF-8'));
+var model = liftModel(data);
 
 function printRoute(field, item) {
     if (field == "name") {

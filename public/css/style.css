@@ -6,3 +6,49 @@ body {
 a {
   color: #00B7FF;
 }
+
+.yui3-stoplight-content {
+    width: auto;
+    min-width: 200px;
+    min-height: 20px;
+    position: relative;
+}
+.yui3-stoplight-content>p {
+    margin: 0;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-family: verdana;
+    color: #003;
+}
+
+.yui3-stoplight-content>span {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: .8em;
+    height: .8em;
+    margin: .2em;
+    display: block;
+    float: left;
+}
+
+.yui3-stoplight-content>span.empty {
+    background-color: transparent;
+    border: solid 1px black;
+}
+
+.yui3-stoplight-content>span:first-of-type {
+    margin-left: 65%;
+}
+
+span.go {
+    background-color: green;
+}
+
+span.slow {
+    background-color: yellow;
+}
+
+span.stop {
+    background-color: red;
+}
